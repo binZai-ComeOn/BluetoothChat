@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BluetoothChat</string>
+
+    <string name="refresh">刷新</string>
+    <string name="stop">停止</string>
+    <string name="discoverable">允许其它设备发现自己</string>
+    <string name="serviceConnect">开启服务端等待连接</string>
+    <string name="serviceClose">关闭服务端</string>
+
+    <!--  蓝牙状态  -->
+    <string name="BOND_NONE">未配对</string>
+    <string name="BOND_BONDING">正在配对...</string>
+    <string name="BOND_BONDED">已配对</string>
+
+    <!--  蓝牙类型  -->
+    <string name="DEVICE_TYPE_CLASSIC">经典 - BR/EDR</string>
+    <string name="DEVICE_TYPE_DUAL">双模式 - BR/EDR/LE</string>
+    <string name="DEVICE_TYPE_LE">低功耗 - LE</string>
+    <string name="DEVICE_TYPE_UNKNOWN">未知</string>
+
+    <string name="name">名称</string>
+    <string name="address">地址</string>
+    <string name="type">类型</string>
+    <string name="uuid">UUID</string>
+    <string name="bindstate">状态</string>
+
+    <string name="ConnectBluetooth">连接蓝牙</string>
+    <string name="ConnectCancel">取消连接</string>
+    <string name="PairCancel">取消配对</string>
+    <string name="PAIR">蓝牙配对</string>
+    <string name="BluetoothInfo">蓝牙信息</string>
+    <string name="ClicenConnection">作为客户端连接</string>
+    <string name="ServerConnection">作为服务端连接</string>
+</resources>

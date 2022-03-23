@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  宽  -->
+    <dimen name="width_50dp">50dp</dimen>
+    <!--  高  -->
+    <dimen name="height_50dp">50dp</dimen>
+    <!--  外边距  -->
+    <dimen name="manager_10dp">10dp</dimen>
+    <dimen name="manager_20dp">20dp</dimen>
+    <!--  内边距  -->
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+
+    <!--  半径  -->
+    <dimen name="radius_10dp">10dp</dimen>
+    <dimen name="radius_20dp">20dp</dimen>
+
+    <!--  文字大小  -->
+    <dimen name="font_18sp">18sp</dimen>
+    <dimen name="font_16sp">16sp</dimen>
+    <dimen name="font_14sp">14sp</dimen>
+</resources>

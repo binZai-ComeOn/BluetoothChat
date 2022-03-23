@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_50dp"
+    android:paddingLeft="@dimen/padding_20dp"
+    android:layout_marginRight="@dimen/padding_20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/body">
+
+    <TextView
+        android:id="@+id/name"
+        android:text="@string/app_name"
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_50dp"
+        app:layout_constraintHorizontal_weight="1"
+        android:paddingRight="@dimen/padding_20dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/state"/>
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_50dp"
+        app:layout_constraintHorizontal_weight="1"
+        android:text="未连接"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/font_14sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/divider"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

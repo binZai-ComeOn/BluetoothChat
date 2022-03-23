@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/padding_20dp"
+    android:paddingLeft="@dimen/padding_20dp"
+    android:paddingTop="@dimen/padding_10dp"
+    android:paddingBottom="@dimen/padding_10dp"
+    android:background="@drawable/dialog_radius"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/name"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50dp"
+            android:paddingRight="@dimen/padding_20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_18sp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_weight="1"
+            android:text="蓝牙名称"
+            android:gravity="right|center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/font_14sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/type"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50dp"
+            android:paddingRight="@dimen/padding_20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_18sp"/>
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_weight="1"
+            android:text="蓝牙类型"
+            android:gravity="right|center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/font_14sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/bindstate"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50dp"
+            android:paddingRight="@dimen/padding_20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_18sp"/>
+
+        <TextView
+            android:id="@+id/bindstate"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_weight="1"
+            android:text="蓝牙绑定状态"
+            android:gravity="right|center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/font_14sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/address"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50dp"
+            android:paddingRight="@dimen/padding_20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_18sp"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_weight="1"
+            android:text="蓝牙地址"
+            android:gravity="right|center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/font_14sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/uuid"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50dp"
+            android:paddingRight="@dimen/padding_20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_18sp"/>
+
+        <TextView
+            android:id="@+id/uuid"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_weight="1"
+            android:text="蓝牙UUID"
+            android:gravity="right|center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/font_14sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
